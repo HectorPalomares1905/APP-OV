@@ -72,12 +72,15 @@ body {
     z-index: 1;
 }
 
+
 .hashtag {
-    color: white;
+    font-size: 16px;
+    color: rgb(242, 84, 84);
     font-style: italic;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     position: relative;
     z-index: 1;
+    font-weight: bold;
 }
 
 /* Contenedor principal */
@@ -761,4 +764,5 @@ body {
     .test-card {
         page-break-inside: avoid;
     }
+
 }
